@@ -7,6 +7,6 @@ const db = mysql.createConnection(
         password: '',
         database: 'employeeTracker'
     },
-    console.log("You have successfully connected to the associate database.")
+    console.log("You are now connected to the database!")
 );
 module.exports = db
